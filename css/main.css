@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --brand-green: #386641;
+    --secondary-green: #6A994E;
+    --secondary-black: #262A2C;
+    --secondary-grey: #696969;
+    --white: #fff
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Epilogue', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    margin: 10px;
+}
