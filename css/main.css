@@ -1,3 +1,4 @@
+/* Global styles */
 *{
     box-sizing: border-box;
     margin: 0;
@@ -15,9 +16,42 @@ html{
     font-family: 'Epilogue', sans-serif;
     font-family: 'Playfair Display', serif;
 }
+a {
+    text-decoration: none;
+}
+/* Header styles */
 header {
     display: flex;
-    justify-content: space-around;
-    align-items: baseline;
-    margin: 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1111px;
+    margin-top: 2.5rem;
+}
+/* Header logo styles */
+.header--logo {
+    height: 6.2rem;
+    width: 17rem;
+}
+.header--logo img {
+    max-width: fit-content;
+    max-height: fit-content;
+}
+/* Header menu styles */
+.header--menu a {
+    margin-right: 50px;
+    color: var(--brand-green);
+    font-family: "Epilogue", sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+.header--menu .header--menu-button {
+    background-color: var(--brand-green);
+    width: 170px;
+    height: 46px;
+    border-radius: 50px;
+}
+.header--menu-button a{
+    color: var(--white);
+    margin: 0;
 }
