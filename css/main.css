@@ -45,13 +45,70 @@ header {
     font-weight: 400;
     font-size: 1.6rem;
 }
-.header--menu .header--menu-button {
+.menu-button {
     background-color: var(--brand-green);
     width: 170px;
     height: 46px;
     border-radius: 50px;
+    cursor: pointer;
 }
-.header--menu-button a{
+.menu-button a{
     color: var(--white);
     margin: 0;
+}
+/* Main styles */
+    /* 1st section styles */
+main {
+    width: 100%;
+    height: auto;
+}
+.main--text-img-card {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: 48px;
+}
+.main--text {
+    display: flex;
+    flex-direction: column;
+    max-width: 54rem;
+    height: 38rem;
+    margin-right: 40px;
+    padding-right: 40px;
+}
+.main--text h3 {
+    font-size: 4.8rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    font-style: italic;
+    color: var(--secondary-green);
+    margin: 24px 0;
+}
+.main--text p {
+    font-size: 1.8rem;
+    font-weight: 400;
+    font-family: 'Epilogue', sans-serif;
+    line-height: 30px;
+    margin: 24px 0;
+    color: var(--secondary-grey);
+}
+.main--img {
+    position: relative;
+    width: 71.3rem;
+    height: 56rem;
+    border: 5px solid var(--secondary-green);
+    border-radius: 16px;
+    border-right: none;
+}
+.img-background {
+    position: absolute;
+    bottom: -30px;
+    right: 0;
+    width: 68.8rem;
+    height: 56rem;
+    background-image: url('../assets/images/BGImage.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
