@@ -343,3 +343,65 @@ main {
     background-color: var(--secondary-green);
     border: none;
 }
+/* why styles */
+.why {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background-color: var(--background-green);
+    padding-bottom: 70px;
+}
+.why .little-cards-title p {
+    color: var(--secondary-green);
+    font-weight: 400;
+}
+.little-cards-title {
+    margin: 70px 0 30px;
+}
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 318px;
+    gap: 20px;
+    margin: 0 180px 30px;
+}
+.why-card {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    background-color: var(--white);
+    border-radius: 16.55px;
+}
+.why-card div {
+    width: 100%;
+    height: 231px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+    border-radius: 16.55px 16.55px 0 0;
+}
+.why-card h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: italic;
+    color: var(--secondary-green);
+    margin-bottom: 10px;
+}
+.why-card p {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 10.59px;
+    font-weight: 400;
+    color: var(--brand-green);
+}
+.card1 div{
+    background-image: url('../assets/images/Card5.png');
+}
+.card2 div{
+    background-image: url('../assets/images/Card6.png');
+}
+.card3 div{
+    background-image: url('../assets/images/Card7.png');
+}
