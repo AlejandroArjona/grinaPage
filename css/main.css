@@ -405,3 +405,78 @@ main {
 .card3 div{
     background-image: url('../assets/images/Card7.png');
 }
+/* footer styles */
+footer {
+    width: 100%;
+    height: auto;
+    margin-bottom: 75px;
+}
+.footer--logo-text {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 75px auto 0;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #e8eaed;
+}
+.logo-text{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1fr 1fr;
+    width: 50%;
+    gap: 15px;
+}
+.logo-text a{
+    font-size: 16px;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+    color: #15303D;
+}
+.footer-logo {
+    width: 250px;
+    height: 91px;
+    background-image: url(../assets/icons/main-logo.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer--email {
+    width: 75%;
+    margin: 25px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+.footer--email p {
+    font-size: 14px;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+    color: #15303D;
+}
+.email-text {
+    display: flex;
+    align-items: center;
+    width: 60%;
+}
+.email-logo {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    background-image: url('../assets/icons/message.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 10px;
+}
+.email-text a {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #15303D;
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+    margin-left: 10px;
+}
