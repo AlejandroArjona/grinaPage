@@ -55,6 +55,7 @@ header {
     height: 46px;
     border-radius: 50px;
     cursor: pointer;
+    border: none;
 }
 .menu-button a{
     color: var(--white);
@@ -299,4 +300,46 @@ main {
 .question .close-question-icon {
     margin: 0;
     align-self: flex-start;
+}
+/* CTA section styles */
+.cta {
+    width: 80%;
+    margin: 90px auto 45px;
+    height: 407px;
+    background-color: var(--brand-green);
+    border-radius: 21.6px;
+    display: flex;
+    justify-content: center;
+}
+.cta-ornament {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 165px;
+    background-image: url('../assets/icons/Ornament.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    text-align: center;
+}
+.cta-ornament h2 {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 58px;
+    font-weight: bold;
+    line-height: 79.2px;
+    color: var(--white);
+}
+.cta-ornament p {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 14.4px;
+    font-weight: 300;
+    line-height: 23.4px;
+    color: var(--white);
+}
+.cta-button {
+    background-color: var(--secondary-green);
+    border: none;
 }
